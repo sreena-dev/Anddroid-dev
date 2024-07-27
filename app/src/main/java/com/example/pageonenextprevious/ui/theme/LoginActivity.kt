@@ -52,26 +52,6 @@ class LoginActivity : ComponentActivity() {
 
         }
 
-////        fun setOnClickListener(nameText: EditText, editTextPassword: EditText) {
-//            mnameText.addTextChangedListener { text ->
-//                Log.d(TAG,"text from addTextChangedListner: mnameText it $text" )
-////                mnameText = it.toString()
-////            }
-//            mEditTextPassword.addTextChangedListener { it ->
-//                Log.d(TAG, "addTextChangedListener: mPasswordTextView  it $it")
-////                meditTextPassword = it.toString()
-//            }
-//        button.setOnClickListener {
-//                val intent = Intent(this, MainActivity::class.java)
-//                startActivity(intent)
-//                Toast.makeText(this, "Yoo! login", Toast.LENGTH_SHORT).show()
-//            }
-////        }
-//
-//        button.setOnClickListener{
-//            Toast.makeText(this, "Yoo! this is the first layout", Toast.LENGTH_SHORT).show()
-//        }
-
         mButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
